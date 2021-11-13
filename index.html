@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social Media Dashbord</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/responsive-style.css">
+  <script type="text/javascript" src="javascript/javascript.js"></script>
+</head>
+<body>
+  <div id="top-bg-pattern">
+    <div id="dashboard">
+      <!-- Menu -->
+      <div class="menu">
+        <div id="title">
+          <h1>
+            Social Media Dashbord
+          </h1>
+          <h4>
+           Total Followers: 23,004
+          </h4>
+        </div>
+        <!-- Toggle switch mod -->
+        <div class="container-toggle">
+          <h2 id="title-dark">Dark Mode</h2>
+          <label id="switch" class="switch">
+                  <input type="checkbox" onchange="toggleTheme()" id="slider">
+                  <span class="slider round"></span>
+              </label>
+          <!-- <button id="switch" onclick="toggleTheme()">Switch</button> -->
+        </div>
+      </div>
+      <!-- First container of dashboard -->
+      <div class="container-1">
+        <!-- Block1 line 1 -->
+        <div class="block block-facebook">
+          <div class="title-block">
+            <div class="logo logo-block-line-1">
+              <img src="icon-facebook.svg" alt="logo Facebook" title="Facebook">
+            </div>
+            <div>
+              <h2>
+                @nathanf
+              </h2>
+            </div>
+          </div>
+          <div class="numbers">
+            <p class="primary-stats">
+              1987
+            </p>
+          </div>
+          <div class="followers">
+            <p class="text-followers">
+              FOLLOWERS
+            </p>
+          </div>
+          <div class="stats stats-1">
+            <p class="p-stats">
+              ▲ 12 Today
+            </p>
+          </div>
+        </div>
+        <!-- End of Block 1 -->
+        <!-- Block 2 line 1 -->
+        <div class="block block-twitter">
+          <div class="title-block">
+            <div class="logo logo-block-line-1">
+              <img src="icon-twitter.svg" alt="logo twitter" title="Twitter">
+            </div>
+            <div>
+              <h2>
+                @nathanf
+              </h2>
+            </div>
+          </div>
+          <div class="numbers">
+            <p class="primary-stats">
+              1044
+            </p>
+          </div>
+          <div class="followers">
+            <p class="text-followers">
+              FOLLOWERS
+            </p>
+          </div>
+          <div class="stats stats-1">
+            <p class="p-stats">
+              ▲ 99 Today
+            </p>
+          </div>
+        </div>
+        <!-- End of Block 2 -->
+        <!-- Block 3 line 1 -->
+        <div class="block block-instagram">
+          <div class="title-block">
+            <div class="logo logo-block-line-1">
+              <img src="icon-instagram.svg" alt="logo instagram" title="Instagram">
+            </div>
+            <div>
+              <h2>
+                @realnathanf
+              </h2>
+            </div>
+          </div>
+          <div class="numbers">
+            <p class="primary-stats">
+              11k
+            </p>
+          </div>
+          <div class="followers">
+            <p class="text-followers">
+              FOLLOWERS
+            </p>
+          </div>
+          <div class="stats stats-1">
+            <p class="p-stats">
+              ▲ 1099 Today
+            </p>
+          </div>
+        </div>
+        <!-- End of Block 3 -->
+        <!-- Block 4 line 1 -->
+        <div class="block block-youtube">
+          <div class="title-block">
+            <div class="logo logo-block-line-1">
+              <img src="icon-youtube.svg" alt="logo youtube" title="Youtube">
+            </div>
+            <div>
+              <h2>
+                Nathan F.
+              </h2>
+            </div>
+          </div>
+          <div class="numbers">
+            <p class="primary-stats">
+              8239
+            </p>
+          </div>
+          <div class="followers">
+            <p class="text-followers">
+              SUSCRIBERS
+            </p>
+          </div>
+          <div class="stats stats-1">
+            <p class="p-stats red-stats">
+              ▼ 144 Today
+            </p>
+          </div>
+        </div>
+        <!-- End of Block 4 -->
+      </div>
+      <!-- End of first container stats -->
+      <!-- Second container stats -->
+      <div class="container-2">
+          <div class="title-2">
+            <h2 id="title-overview">
+              Overview - Today
+            </h2>
+          </div>
+          <div class="dashboard-2">
+            <div class="line-1">
+              <div class="blocks-part-2 block-1-part-2"> 
+                <div class="blocks-parts">
+                  <p class="text-blocks-parts">
+                    Page Views
+                  </p>
+                  <img class="icon-part-2" src="icon-facebook.svg">
+                </div>
+                <div class="blocks-parts">
+                  <p class="numbers-part-2">
+                    87
+                  </p>
+                  <p class="p-stats stats-part-2">
+                    ▲ 3%
+                  </p>
+                </div>
+              </div>
+              <div class="blocks-part-2 block-1-part-2"> 
+                <div class="blocks-parts">
+                  <p class="text-blocks-parts">
+                    Likes
+                  </p>
+                  <img class="icon-part-2" src="icon-facebook.svg">
+                </div>
+                <div class="blocks-parts">
+                  <p class="numbers-part-2">
+                    52
+                  </p>
+                  <p class="p-stats stats-part-2 red-stats">
+                    ▼ 2%
+                  </p>
+                </div>
+              </div>
+              <div class="blocks-part-2 block-1-part-2"> 
+                <div class="blocks-parts">
+                  <p class="text-blocks-parts">
+                    Likes
+                  </p>
+                  <img class="icon-part-2" src="icon-instagram.svg">
+                </div>
+                <div class="blocks-parts">
+                  <p class="numbers-part-2">
+                    5462
+                  </p>
+                  <p class="p-stats stats-part-2">
+                    ▲ 2257%
+                  </p>
+                </div>
+              </div>
+              <div class="blocks-part-2 block-1-part-2"> 
+                <div class="blocks-parts">
+                  <p class="text-blocks-parts">
+                    Profile Views
+                  </p>
+                  <img class="icon-part-2" src="icon-instagram.svg">
+                </div>
+                <div class="blocks-parts">
+                  <p class="numbers-part-2">
+                    52k
+                  </p>
+                  <p class="p-stats stats-part-2">
+                    ▲ 1375%
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="line-2">
+              <div class="blocks-part-2 block-1-part-2"> 
+                <div class="blocks-parts">
+                  <p class="text-blocks-parts">
+                    Retweets
+                  </p>
+                  <img class="icon-part-2" src="icon-twitter.svg">
+                </div>
+                <div class="blocks-parts">
+                  <p class="numbers-part-2">
+                    117
+                  </p>
+                  <p class="p-stats stats-part-2">
+                    ▲ 303%
+                  </p>
+                </div>
+              </div>
+              <div class="blocks-part-2 block-1-part-2"> 
+                <div class="blocks-parts">
+                  <p class="text-blocks-parts">
+                    Likes
+                  </p>
+                  <img class="icon-part-2" src="icon-twitter.svg">
+                </div>
+                <div class="blocks-parts">
+                  <p class="numbers-part-2">
+                    507
+                  </p>
+                  <p class="p-stats stats-part-2">
+                    ▲ 553%
+                  </p>
+                </div>
+              </div>
+              <div class="blocks-part-2 block-1-part-2"> 
+                <div class="blocks-parts">
+                  <p class="text-blocks-parts">
+                    Likes
+                  </p>
+                  <img class="icon-part-2" src="icon-youtube.svg">
+                </div>
+                <div class="blocks-parts">
+                  <p class="numbers-part-2">
+                    107
+                  </p>
+                  <p class="p-stats stats-part-2 red-stats">
+                    ▼ 19%
+                  </p>
+                </div>
+              </div>
+              <div class="blocks-part-2 block-1-part-2"> 
+                <div class="blocks-parts">
+                  <p class="text-blocks-parts">
+                    Total Views
+                  </p>
+                  <img class="icon-part-2" src="icon-youtube.svg">
+                </div>
+                <div class="blocks-parts">
+                  <p class="numbers-part-2">
+                    1407
+                  </p>
+                  <p class="p-stats stats-part-2 red-stats">
+                    ▼ 12%
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Thomas VDK</a>.
+  </div>
+</body>
+
+</html>
