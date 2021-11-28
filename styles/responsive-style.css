@@ -2,7 +2,7 @@
 
 @media (max-width: 800px){
     body{
-        max-width: 375px;
+        max-width: 370px;
         width:98%;
         text-align: center;
         align-content: center;
@@ -14,6 +14,7 @@
         width:375px;
     }
     #dashboard{
+        width: 90%;
         padding-left: 15px;
         padding-right: 15px;
     }
@@ -64,14 +65,17 @@
       }
     
     .blocks-part-2{
+        max-width: 297px;
+        width: 100%;
         margin-bottom: 20px;
         margin-left: 0;
         margin-right:0;
-        padding-right: 35px;
-        padding-left: 35px;
+        padding-right: 20px;
+        padding-left: 20px;
     }
 
     .blocks-parts{
+        max-width: 360px;
         width: 100%;
         display: flex;
         flex-direction: row;
